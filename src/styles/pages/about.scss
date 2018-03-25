@@ -1,0 +1,147 @@
+.about__section {
+    background-color: #f2f0e8;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 20px;
+    @include tablets {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.about__title {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 63px;
+    color: $dark;
+    text-align: center;
+    @include tablets {
+        font-size: 45px;
+    }
+}
+
+.about__left {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 50%;
+    @include medium {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.about__undertitle {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: $grey;
+    @include tablets {
+        font-size: 30px;
+    }
+    @include phones {
+        font-size: 22px;
+    }
+}
+
+.about__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.about__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $grey;
+}
+
+.about__image {
+    width: 100%;
+}
+
+.about__photo {
+    max-width: 100%;
+    height: auto;
+}
+
+.about__right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__title-right {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    @include tablets {
+        font-size: 30px;
+    }
+    @include phones {
+        font-size: 20px;
+    }
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 20px;
+}
+
+.skills__element {
+    background: #ECF5E4;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    border: 24px solid #95CD8B;
+    border-right: 24px solid #D0E6BB;
+    border-radius: 100px;
+    position: relative;
+    margin-right: 40px;
+    @include medium {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+.map {
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    block-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts {
+    background-color: white;
+    width: 380px;
+    height: 312px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.copywrite {
+    font-family: "Roboto", sans-serif;
+    color: $grey;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    @include tablets {
+        font-size: 14px;
+    }
+}

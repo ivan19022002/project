@@ -1,0 +1,100 @@
+.slider {
+    position: relative;
+}
+
+.slider__list-wrapp {
+    position: relative;
+    margin-top: 132px;
+}
+
+.slider__list {
+    display: flex;
+    flex-direction: row;
+}
+
+.slide__title {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: $grey;
+    @include tablets {
+        font-size: 30px;
+    }
+    @include phones {
+        font-size: 22px;
+    }
+}
+
+.slider__item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    @include tablets {
+        flex-direction: column-reverse;
+    }
+}
+
+.slide__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slide__techno {
+    position: relative;
+    margin-top: 25px;
+    color: $light-green;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.site__button {
+    position: relative;
+    margin-top: 60px;
+    width: 200px;
+    height: 45px;
+    background-color: $light-green;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.8s;
+    &:hover {
+        background-color: $green;
+        transition: 0.8s;
+    }
+    @include tablets {
+        margin-bottom: 112px;
+    }
+}
+
+.site__link {
+    text-decoration: none;
+}
+
+.link__icon {
+    fill: white;
+    width: 20px;
+    height: 19px;
+    position: relative;
+    margin-right: 12px;
+}
+
+.slide__photo {
+    width: 80%;
+}
+
+.slide__photo img {
+    width: 100%;
+    height: auto;
+}

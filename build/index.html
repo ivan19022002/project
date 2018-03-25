@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Добро пожаловать</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="./assets/styles/app.min.css">
+    <link rel="shortcut icon" href="assets/images/fav_forest.png" type="image/x-icon">
+    <script src="/assets/scripts/bundle.js/bundle.js"></script>
+    <script src="js/jquery-2.2.3.min.js">       </script>
+  </head>
+  <body>
+    <div class="pl__l"> </div>
+    <div class="pl__r"> </div>
+    <div class="wrapper"> 
+      <div class="maincontent"> <a class="loginLink" href="" title="title"> 
+          <div class="buttonLogin btn" id="btn">Авторизоваться</div></a>
+        <div class="card js-card"> 
+          <div class="card__wrapper"> 
+            <div class="front card__side is-active"><img class="myImg" src="assets/images/myImg.jpg" alt="">
+              <div class="myName">Матвийчук Иван</div>
+              <div class="developer">Личный сайт веб-разработчика</div>
+              <div class="socials"> <a href="#" title="title">  
+                  <svg class="icon icon" width="31" height="17">
+                    <use xlink:href="assets/images/sprite.svg#vk"></use>
+                  </svg></a><a href="#" title="title">    
+                  <svg class="icon icon" width="26" height="22">
+                    <use xlink:href="assets/images/sprite.svg#git"></use>
+                  </svg></a><a href="#" title="title"> 
+                  <svg class="icon icon" width="26" height="22">
+                    <use xlink:href="assets/images/sprite.svg#in"></use>
+                  </svg></a></div>
+              <div class="click"> <a class="works" href="my-works.html" title="title">
+                  <div class="works-click">Мои работы</div></a><a class="about" href="about.html" title="title">
+                  <div class="about-click">Обо мне</div></a><a class="blog" href="blog.html" title="title">
+                  <div class="blog-click">Блог    </div></a></div>
+            </div>
+            <div class="back card__side card__side--back">
+              <div class="login__title undertitle section__title-uppercase-white">АВТОРИЗУЙТЕСЬ </div>
+              <form method="POST" action="/register">
+                <div class="form-group">
+                  <label for="name"></label>
+                  <input class="form-control" id="name" type="text" placeholder="Логин" name="name">
+                </div>
+                <div class="form-group">
+                  <label for="email"></label>
+                  <input class="form-control" id="email" type="email" placeholder="Пароль" name="email">
+                </div>
+                <div class="form-group">
+                  <label>
+                    <input class="chekbox" type="checkbox" checked="">  Я человек
+                  </label>
+                </div>
+                <div class="form-group"> 
+                  <label>Вы точно не робот?
+                    <label>
+                      <input type="radio" name="status">  Да
+                    </label>
+                    <label>
+                      <input type="radio" name="status">  Не уверен      
+                    </label>
+                  </label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="foot">© Владимир Астахов | создано с любовью в LoftSchool | 2016                </div>
+    </div>
+  </body>
+</html>

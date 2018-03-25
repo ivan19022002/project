@@ -1,0 +1,59 @@
+extends ../template
+
+block variables
+    - var title = 'Добро пожаловать'
+
+block content
+    .pl__l 
+    .pl__r  
+    div.wrapper 
+        div.maincontent 
+            a(href="", title="title").loginLink 
+                div.buttonLogin#btn.btn Авторизоваться
+            div.card.js-card  
+                div.card__wrapper  
+                    div.front.card__side.is-active
+                        img(src="assets/images/myImg.jpg", alt="").myImg 
+                        div.myName Матвийчук Иван
+                        div.developer Личный сайт веб-разработчика
+                        div.socials 
+                            a(href="#", title="title")   
+                              svg.icon(width='31', height='17').icon
+                                use(xlink:href='assets/images/sprite.svg#vk')
+                            a(href="#", title="title")     
+                              svg.icon(width='26', height='22').icon
+                                use(xlink:href='assets/images/sprite.svg#git')
+                            a(href="#", title="title") 
+                              svg.icon(width='26', height='22').icon
+                                use(xlink:href='assets/images/sprite.svg#in')
+                        div.click 
+                            a(href="my-works.html", title="title").works
+                                div.works-click Мои работы
+                            a(href="about.html", title="title").about
+                                div.about-click Обо мне
+                            a(href="blog.html", title="title").blog
+                                div.blog-click Блог    
+                    div.back.card__side.card__side--back
+                         div.login__title.undertitle.section__title-uppercase-white АВТОРИЗУЙТЕСЬ 
+                         form(method='POST' action='/register')
+                             div.form-group
+                               label(for='name')
+                               input#name.form-control(type='text', placeholder='Логин' name='name')
+                             div.form-group
+                               label(for='email')
+                               input#email.form-control(type='email', placeholder='Пароль' name='email')
+                             div.form-group
+                               label
+                                   input.chekbox(type='checkbox', checked='')
+                                   |   Я человек
+                             div.form-group 
+                                    label Вы точно не робот?
+                                       label
+                                         input(type='radio', name='status')
+                                         |   Да
+                                       label
+                                         input(type='radio', name='status')
+                                         |   Не уверен      
+                             
+
+        div.foot © Владимир Астахов | создано с любовью в LoftSchool | 2016                

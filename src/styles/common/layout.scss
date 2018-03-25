@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.section__title-uppercase {
+    text-transform: uppercase;
+}
+
+.section__title-uppercase:after {
+    display: table;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 3px solid #474b57;
+    width: 56px;
+    height: 13px;
+    content: '';
+}
+
+.section__title-uppercase:after {
+    display: table;
+    margin-bottom: 8px;
+    width: 56px;
+    height: 13px;
+}
+
+input {
+    border: 0;
+    border-radius: 20px;
+}
+
+//media
+$large: 1800px;
+$medium: 1200px;
+$tablets: 768px;
+$phones: 480px;
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: "SansusWebissimoRegular";
+    src: url("../fonts/SansusWebissimoRegular/SansusWebissimoRegular.eot");
+    src: url("../fonts/SansusWebissimoRegular/SansusWebissimoRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/SansusWebissimoRegular/SansusWebissimoRegular.woff") format("woff"), url("../fonts/SansusWebissimoRegular/SansusWebissimoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+//colors
+$light-green: #6c9c5a;
+$green: #4e8839;
+$grey: #566358;
+$dark: #373e42;
+$blue: #455a64;

@@ -1,0 +1,123 @@
+.pl__l,
+.pl__r {
+    position: fixed;
+    background: #6c9c5a;
+    opacity: 0.8;
+    width: 50%;
+    height: 100%;
+    z-index: 99;
+}
+
+.pl__l {
+    left: 0;
+    animation: slideLeft 4s ease forwards;
+}
+
+.pl__r {
+    right: 0;
+    animation: slideRight 4s ease forwards;
+}
+
+@keyframes slideLeft {
+    10% {
+        transform: translateX(-10%);
+        animation-timing-function: ease-in;
+    }
+    20% {
+        transform: translateX(-20%);
+        animation-timing-function: ease-in;
+    }
+    30% {
+        transform: translateX(-30%);
+        animation-timing-function: ease-in;
+    }
+    40% {
+        transform: translateX(-40%);
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: translateX(-50%);
+        animation-timing-function: ease-in;
+    }
+    60% {
+        transform: translateX(-60%);
+        animation-timing-function: ease-in;
+    }
+    70% {
+        transform: translateX(-70%);
+        animation-timing-function: ease-in;
+    }
+    80% {
+        transform: translateX(-80%);
+        animation-timing-function: ease-in;
+    }
+    90% {
+        transform: translateX(-90%);
+        animation-timing-function: ease-in;
+    }
+    100% {
+        transform: translateX(-100%);
+        animation-timing-function: ease-in;
+    }
+}
+
+@keyframes slideRight {
+    10% {
+        transform: translateX(10%);
+        animation-timing-function: ease-in;
+    }
+    20% {
+        transform: translateX(20%);
+        animation-timing-function: ease-in;
+    }
+    30% {
+        transform: translateX(30%);
+        animation-timing-function: ease-in;
+    }
+    40% {
+        transform: translateX(40%);
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: translateX(50%);
+        animation-timing-function: ease-in;
+    }
+    60% {
+        transform: translateX(60%);
+        animation-timing-function: ease-in;
+    }
+    70% {
+        transform: translateX(70%);
+        animation-timing-function: ease-in;
+    }
+    80% {
+        transform: translateX(80%);
+        animation-timing-function: ease-in;
+    }
+    90% {
+        transform: translateX(90%);
+        animation-timing-function: ease-in;
+    }
+    100% {
+        transform: translateX(100%);
+        animation-timing-function: ease-in;
+    }
+}
+
+//imports
+@import 'common/preloader';
+@import 'common/socials';
+@import 'common/layout';
+@import 'common/misc';
+@import 'common/menu';
+@import 'common/header';
+@import 'common/footer';
+@import 'common/welcome';
+@import 'common/technologies';
+@import 'common/slider';
+@import 'common/technologies';
+@import 'pages/index';
+@import 'pages/blog';
+@import 'pages/about';
+@import 'pages/my-works';
+@import "hamburgers/hamburgers";

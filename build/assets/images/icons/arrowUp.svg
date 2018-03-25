@@ -1,0 +1,27 @@
+<svg version="1.1" id="By7gi3cHB9M" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25.18px" height="16.164px" viewBox="0 0 25.18 16.164" enable-background="new 0 0 25.18 16.164">
+    <style type="text/css">
+        @-webkit-keyframes BJHgjh9rH9M_SJvZjrB9M_Animation{
+0%{-webkit-transform: translate(25px, 16px);transform: translate(25px, 16px);}
+100%{-webkit-transform: translate(25px, 16px);transform: translate(25px, 16px);}}
+@keyframes BJHgjh9rH9M_SJvZjrB9M_Animation{
+0%{-webkit-transform: translate(25px, 16px);transform: translate(25px, 16px);}
+100%{-webkit-transform: translate(25px, 16px);transform: translate(25px, 16px);}}
+@-webkit-keyframes BJHgjh9rH9M_ry2T5BBcM_Animation{
+0%{-webkit-transform: rotate(180deg);transform: rotate(180deg);}
+100%{-webkit-transform: rotate(180deg);transform: rotate(180deg);}}
+@keyframes BJHgjh9rH9M_ry2T5BBcM_Animation{
+0%{-webkit-transform: rotate(180deg);transform: rotate(180deg);}
+100%{-webkit-transform: rotate(180deg);transform: rotate(180deg);}}
+#By7gi3cHB9M *{-webkit-animation-duration: 3s;animation-duration: 3s;-webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);animation-timing-function: cubic-bezier(0, 0, 1, 1);transform-box: fill-box;-webkit-transform-origin: 50% 50%;transform-origin: 50% 50%;}
+#BJHgjh9rH9M{fill: #c1d1c9;}
+#BJHgjh9rH9M_ry2T5BBcM{-webkit-animation-name: BJHgjh9rH9M_ry2T5BBcM_Animation;animation-name: BJHgjh9rH9M_ry2T5BBcM_Animation;-webkit-transform-origin: undefined;transform-origin: undefined;}
+#BJHgjh9rH9M_SJvZjrB9M{-webkit-animation-name: BJHgjh9rH9M_SJvZjrB9M_Animation;animation-name: BJHgjh9rH9M_SJvZjrB9M_Animation;-webkit-transform-origin: undefined;transform-origin: undefined;}
+    </style>
+    <g id="HJ4xincHHcf">
+        <g id="BJHgjh9rH9M_SJvZjrB9M" data-animator-group="true" data-animator-type="0">
+            <g id="BJHgjh9rH9M_ry2T5BBcM" data-animator-group="true" data-animator-type="1">
+                <path d="M13.293,15.871c-0.391,0.391-1.016,0.391-1.406,0L0.293,4.293c-0.391-0.391-0.391-1.031,0-1.422&#10;&#9;&#9;l2.594-2.578c0.391-0.391,1.016-0.391,1.406,0L12.59,8.59l8.297-8.297c0.391-0.391,1.016-0.391,1.406,0l2.594,2.578&#10;&#9;&#9;c0.391,0.391,0.391,1.031,0,1.422L13.293,15.871z" id="BJHgjh9rH9M"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,55 @@
+extends ../template
+
+block variables
+    - var title = 'Мои работы'
+
+block content
+    .pl__l 
+    .pl__r     
+    include ../common/welcome
+    div.container 
+        div.slider
+          div#menu
+             div(id="top").title.slider__title.section__title-uppercase МОИ РАБОТЫ 
+             include ../common/slider
+        div.coments 
+          .coments__blok 
+            .section__title-uppercase.coments__title ЧТО ОБО МНЕ ГОВОРЯТ
+            .reviews 
+              .review 
+                .review__img 
+                  img(src="assets/images/review__img1.png", alt="").circle
+                .review__copywrite 
+                 p Этот парень проходил обучение веб-разработке не 
+                 p где-то, а в LoftSchool! 2 месяца только самых тяжелых
+                 p испытаний и бессонных ночей!
+                .review__name Ковальчук Дмитрий 
+                .review__name-desc -основатель Loftschool 
+              .review 
+                .review__img 
+                  img(src="assets/images/review__img2.png", alt="").circle
+                .review__copywrite 
+                 p Этот парень проходил обучение веб-разработке не 
+                 p где-то, а в LoftSchool! 2 месяца только самых тяжелых
+                 p испытаний и бессонных ночей!
+                .review__name Ковальчук Дмитрий 
+                .review__name-desc -основатель Loftschool 
+            .form              
+                .section__title-uppercase.form__title СВЯЗАТЬСЯ СО МНОЙ
+                form(method='POST' action='/send')
+                  div.form-group
+                    label(for='name')
+                      input#name.form-control(type='text', placeholder='Логин' name='name')
+                  div.form-group
+                    label(for='email')
+                      input#email.form-control(type='email', placeholder='Пароль' name='email')
+                  div.form-group
+                    label(for="coment")
+                      input#coment.form-control(type="text", placeholder="Ваше сообщение" name='coment')    
+                .buttons 
+                  .send Отправить
+                  .clear Очистить
+            a(href="#", title="title")   
+              svg(width='31', height='17').arrow
+                use(xlink:href='assets/images/sprite.svg#arrow__up')            
+            include ../common/footer    

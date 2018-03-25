@@ -1,0 +1,194 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 74px;
+}
+
+.slider__title {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 63px;
+    text-align: center;
+    color: $dark;
+    @include tablets {
+        font-size: 47px;
+    }
+    @include phones {
+        font-size: 35px;
+    }
+}
+
+.coments {
+    position: relative;
+    margin-top: 70px;
+    background-image: url(../images/works__bottom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.coments__blok {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coments__title {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: $dark;
+    text-align: center;
+    @include phones {
+        font-size: 35px;
+    }
+}
+
+.reviews {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    @include phones {
+        flex-direction: column;
+    }
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-right: 25px;
+}
+
+.review__copywrite {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    color: $grey;
+}
+
+.review__name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: $green;
+}
+
+.review__name-desc {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: $grey;
+}
+
+.circle {
+    border-radius: 100px;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    width: 380px;
+    height: 461px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    @include tablets {
+        width: 349px;
+        height: 441px;
+    }
+}
+
+.form__title {
+    font-size: 35px;
+    text-align: center;
+    color: $grey;
+    position: relative;
+    margin-top: 39px;
+    margin-bottom: 31px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    @include phones {
+        font-size: 22px;
+    }
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+    height: 45px;
+}
+
+.arrow {
+    width: 36px;
+    height: 16px;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 45px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.send {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: $light-green;
+    width: 50%;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid #a6bda3;
+    &:hover {
+        background-color: $green;
+    }
+}
+
+.clear {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: $light-green;
+    width: 50%;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        background-color: $green;
+    }
+}
+
+#coment {
+    width: 338px;
+    height: 140px;
+}
+
+#name {
+    height: 45px;
+    width: 330px;
+}
+
+#email {
+    height: 45px;
+    width: 330px;
+}
